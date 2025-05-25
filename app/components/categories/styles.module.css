@@ -6,13 +6,13 @@
     padding: 5px;
 }
 
-.items button{
+.items .delete{
     background-color: transparent;
     color: rgb(153, 4, 4);
     border: none;
     cursor: pointer;
 }
-.items a{
+.items .edit{
     background-color: transparent;
     border: none;
     color: rgb(79, 141, 8);

@@ -11,7 +11,7 @@ function Header() {
     </ul>
     <ul className={styles.links}>
     <li><Link href="/admin/products"> PRODUCTS </Link></li>
-    <li><Link href="/admin/categories"> ADD CATEGORY </Link></li>
+    <li><Link href="/admin/categories">  CATEGORIES </Link></li>
     </ul>
     </div>
   )
