@@ -1,0 +1,14 @@
+:root{
+    --main-bg:rgb(19, 3, 42);
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--main-bg)
+}
+.container{
+    max-width: 94%;
+    box-sizing: border-box;
+    margin: 100px auto;
+    width: 1000px;
+}

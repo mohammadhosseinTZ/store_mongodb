@@ -1,0 +1,55 @@
+.header{
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.header .log{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+}
+.header .log button{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+    width: fit-content;
+    border: none;
+}
+.header .log a {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 10px;
+    border: none;
+}
+.header .log a:hover , .header .log button:hover{
+    background-color: var(--main-bg);
+}
+
+.header .links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+}
+.header .links a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.header .links a:hover{
+    color: var(--main-bg);
+}

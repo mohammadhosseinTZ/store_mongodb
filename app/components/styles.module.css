@@ -1,0 +1,9 @@
+.aButton{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin-top: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}

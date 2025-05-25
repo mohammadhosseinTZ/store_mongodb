@@ -1,0 +1,50 @@
+.categories{
+    width: 100%;
+}
+.categories h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.newCat button{
+    background-color: white;
+    color: black;
+    margin: 0px;
+    border-left: 1px solid var(--main-bg);
+    padding: 7px;
+}
+.newCat label{
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    color: white;
+}
+.newCat input{
+    padding: 6px;
+    border:1px solid white;
+}
+.children{
+    width: 100%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.items{
+    background-color: white;
+    width: 100%;
+}
+.items th{
+    text-align: start;
+    
+}
+.items tr :is(th , td){
+    padding: 5px;
+}
+.items tbody:nth-child(even){
+    padding: 10px;
+    
+    background-color: rgba(146, 146, 146, 0.351);
+}

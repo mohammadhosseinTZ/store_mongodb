@@ -1,0 +1,21 @@
+.items th{
+    text-align: start;
+    
+}
+.items tr :is(th , td){
+    padding: 5px;
+}
+
+.items button{
+    background-color: transparent;
+    color: rgb(153, 4, 4);
+    border: none;
+    cursor: pointer;
+}
+.items a{
+    background-color: transparent;
+    border: none;
+    color: rgb(79, 141, 8);
+    text-decoration: none;
+    font-size: 12px;
+} 
